@@ -1,13 +1,13 @@
-//Task 1
+//Task 1 -Employee Information
 let employeeName = "Hien Tran";
-const employeeID = 3713;
+const employeeID = 2208;
 var isActive = true;
 
 console.log("Employee Name:", employeeName, "Type:", typeof employeeName);
 console.log("Employee ID:", employeeID, "Type:", typeof employeeID);
 console.log("Is Active:", isActive, "Type:", typeof isActive);
 
-//Task 2
+//Task 2 -Product Details
 let productName = "Owala water bottle";
 const productPrice = 30.00;
 var isAvailable = true;
@@ -16,7 +16,7 @@ console.log("Product Name:", productName, "Type:", typeof productName);
 console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
 
-//Task 3
+//Task 3 -Financial Transactions
 let accountBalance = 700;
 
 accountBalance += 300; // Adding
@@ -31,20 +31,18 @@ console.log("After interest:", accountBalance);
 accountBalance /= 2; // Dividing
 console.log("After split:", accountBalance);
 
-//Task 4
+//Task 4 -Customer Messaging
 let customerName = "Kayla";
 
 let welcomeMessage = "Dear Sir/Madam, " + customerName + "! Thank You For Your Owala Order.";
 console.log(welcomeMessage);
 
-//Task 5
+//Task 5 -Access Control
 let isLoggedIn = true;
 
 if (isLoggedIn) {
-    console.log("Access granted. Welcome back!");
+    console.log("Access granted. Good to see you back!");
 } else {
-    console.log("Access denied. Please log in.");
+    console.log("Access denied. Please try again.");
 }
-
-let hasAccess = isLoggedIn && true; // Example of a logical operation
-console.log("Has Access:", hasAccess);
+//DONE
