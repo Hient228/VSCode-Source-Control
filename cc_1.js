@@ -1,3 +1,4 @@
+//Task 1
 let employeeName = "Hien Tran";
 const employeeID = 3713;
 var isActive = true;
@@ -16,16 +17,34 @@ console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
 
 //Task 3
-let accountBalance = 1000;
+let accountBalance = 700;
 
-accountBalance += 500; // Add 500
+accountBalance += 300; // Adding
 console.log("After deposit:", accountBalance);
 
-accountBalance -= 200; // Subtract 200
+accountBalance -= 100; // Subtract 
 console.log("After withdrawal:", accountBalance);
 
-accountBalance *= 1.05; // Add 5% interest
+accountBalance *= 1.05; // 5% interest
 console.log("After interest:", accountBalance);
 
-accountBalance /= 2; // Split balance
+accountBalance /= 2; // Dividing
 console.log("After split:", accountBalance);
+
+//Task 4
+let customerName = "Kayla";
+
+let welcomeMessage = "Dear Sir/Madam, " + customerName + "! Thank You For Your Owala Order.";
+console.log(welcomeMessage);
+
+//Task 5
+let isLoggedIn = true;
+
+if (isLoggedIn) {
+    console.log("Access granted. Welcome back!");
+} else {
+    console.log("Access denied. Please log in.");
+}
+
+let hasAccess = isLoggedIn && true; // Example of a logical operation
+console.log("Has Access:", hasAccess);
