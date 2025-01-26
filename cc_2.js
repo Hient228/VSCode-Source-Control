@@ -19,3 +19,10 @@ let employee = { name: "Helen", age: 20, department: "Sales", isActive: false }
 employee.department = "Marketing";
 employee.position = "Manager";
 console.log("Updated employee:", employee);
+
+//Task 4 - Customer Database
+let customers = [{ name: "Kelsey Khong", email: "Kelseykhong@gmail.com", purchaseAmount: 222 },
+    { name: 'Hai Tran', email: 'Haitran@gmail.com', purchaseAmount: 111 },
+    { name: 'Rei Nguyen', email: 'Vyem2005@gmail.com', purchaseAmount: 90 }];
+    customers.push({ name: 'Anna Nguyen', email: 'annanguyen12@gmail.com', purchaseAmount: 50 });
+    console.log("Customer List:", customers);
