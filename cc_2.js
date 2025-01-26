@@ -13,3 +13,9 @@ let total = scores.reduce((sum, score) => sum + score, 0);
 let average = total / scores.length;
 console.log("Updated Scores:", scores);
 console.log("Average Score:", average);
+
+//Task 3 - Employee Records
+let employee = { name: "Helen", age: 20, department: "Sales", isActive: false }
+employee.department = "Marketing";
+employee.position = "Manager";
+console.log("Updated employee:", employee);
