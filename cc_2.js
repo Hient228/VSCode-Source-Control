@@ -26,3 +26,9 @@ let customers = [{ name: "Kelsey Khong", email: "Kelseykhong@gmail.com", purchas
     { name: 'Rei Nguyen', email: 'Vyem2005@gmail.com', purchaseAmount: 90 }];
     customers.push({ name: 'Anna Nguyen', email: 'annanguyen12@gmail.com', purchaseAmount: 50 });
     console.log("Customer List:", customers);
+
+    //Task 5 - Order Processing System
+let order = { orderId: "OR3456", customerName: 'Rei Nguyen', amount: 90 }
+order.calculateTax = function () { return this.amount * 0.1; }
+console.log("Order Details:",order.orderId, order.customerName, order.amount, order.calculateTax());
+//DONE
